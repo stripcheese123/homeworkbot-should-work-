@@ -1,0 +1,379 @@
+2026-05-06 21:46:22 [INFO] ============================================================
+2026-05-06 21:46:22 [INFO] ScreenSolver AI iniciado
+2026-05-06 21:46:22 [INFO] ============================================================
+2026-05-06 21:47:55 [INFO] ============================================================
+2026-05-06 21:47:55 [INFO] ScreenSolver AI iniciado
+2026-05-06 21:47:55 [INFO] ============================================================
+2026-05-06 21:47:56 [INFO] ============================================================
+2026-05-06 21:47:56 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 21:47:56 [INFO] ============================================================
+2026-05-06 21:47:56 [INFO] Validando dependências...
+2026-05-06 21:47:56 [ERROR] Tesseract OCR não encontrado!
+2026-05-06 21:47:56 [ERROR] Instale o Tesseract e adicione ao PATH do sistema.
+2026-05-06 21:51:15 [INFO] ============================================================
+2026-05-06 21:51:15 [INFO] ScreenSolver AI iniciado
+2026-05-06 21:51:15 [INFO] ============================================================
+2026-05-06 21:51:16 [INFO] ============================================================
+2026-05-06 21:51:16 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 21:51:16 [INFO] ============================================================
+2026-05-06 21:51:16 [INFO] Validando dependências...
+2026-05-06 21:51:16 [WARNING] Tesseract OCR não encontrado!
+2026-05-06 21:51:16 [WARNING] O OCR não funcionará. Instale o Tesseract para usar essa funcionalidade.
+2026-05-06 21:51:16 [WARNING] Download: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:51:18 [INFO] ✓ Dependências validadas
+2026-05-06 21:51:18 [INFO] Validando configuração do Ollama...
+2026-05-06 21:51:18 [INFO] Validando configuração do Ollama...
+2026-05-06 21:51:18 [INFO] OllamaClient inicializado
+2026-05-06 21:51:18 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:51:18 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:51:18 [INFO]   Timeout: 120s
+2026-05-06 21:51:20 [INFO] ✓ Ollama está rodando e acessível
+2026-05-06 21:51:22 [INFO] ✓ Modelo qwen3.5:9b está disponível
+2026-05-06 21:51:22 [INFO] ✓ Ollama configurado corretamente!
+2026-05-06 21:51:22 [INFO] ✓ Ollama configurado corretamente
+2026-05-06 21:51:22 [INFO] OllamaClient inicializado
+2026-05-06 21:51:22 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:51:22 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:51:22 [INFO]   Timeout: 120s
+2026-05-06 21:51:22 [INFO] ✓ Cliente Ollama criado
+2026-05-06 21:51:22 [INFO] Inicializando ScreenSolver Overlay
+2026-05-06 21:51:23 [INFO] Overlay inicializada com sucesso
+2026-05-06 21:51:23 [INFO] ✓ Interface criada
+2026-05-06 21:51:23 [INFO] Hotkey registrada: F8 -> Capturar tela
+2026-05-06 21:51:23 [INFO] ✓ Hotkeys registradas
+2026-05-06 21:51:23 [INFO] ============================================================
+2026-05-06 21:51:23 [INFO] ScreenSolver AI pronto para uso!
+2026-05-06 21:51:23 [INFO] Pressione F8 para capturar tela
+2026-05-06 21:51:23 [INFO] ============================================================
+2026-05-06 21:51:23 [INFO] Iniciando loop da interface
+2026-05-06 21:51:35 [INFO] Hotkey F8 detectada - Iniciando captura
+2026-05-06 21:51:35 [INFO] ETAPA 1/4: Captura de tela
+2026-05-06 21:51:35 [INFO] ============================================================
+2026-05-06 21:51:35 [INFO] Iniciando processo de captura de tela
+2026-05-06 21:51:35 [INFO] ============================================================
+2026-05-06 21:51:35 [INFO] Aguardando seleção do usuário...
+2026-05-06 21:51:37 [INFO] Área selecionada: (1140, 196, 1826, 979)
+2026-05-06 21:51:37 [INFO] Capturando área: (1140, 196, 1826, 979)
+2026-05-06 21:51:37 [INFO] Área capturada com sucesso: (686, 783)
+2026-05-06 21:51:37 [INFO] Captura concluída com sucesso!
+2026-05-06 21:51:37 [INFO] ✓ Captura concluída
+2026-05-06 21:51:38 [INFO] Screenshot salvo: C:\Users\celic\Downloads\bot de tarefaz\screensolver\screenshots\screenshot_20260506_215137.png
+2026-05-06 21:51:38 [INFO] ETAPA 2/4: Extração de texto (OCR)
+2026-05-06 21:51:38 [INFO] ============================================================
+2026-05-06 21:51:38 [INFO] Processando imagem para extração de texto
+2026-05-06 21:51:38 [INFO] ============================================================
+2026-05-06 21:51:38 [INFO] Iniciando extração de texto (OCR)
+2026-05-06 21:51:38 [INFO] Pré-processamento concluído com sucesso
+2026-05-06 21:51:38 [WARNING] Tesseract não encontrado! Retornando mensagem padrão. Instale o Tesseract para usar OCR: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:51:38 [ERROR] Erro ao calcular confiança: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-05-06 21:51:38 [INFO] Confiança do OCR: 0.00%
+2026-05-06 21:51:38 [WARNING] Confiança do OCR muito baixa, resultado pode ser impreciso
+2026-05-06 21:51:38 [INFO] Processamento de texto concluído com sucesso
+2026-05-06 21:51:38 [INFO] ✓ Texto extraído: 117 caracteres
+2026-05-06 21:51:38 [INFO] ETAPA 3/4: Verificando cache
+2026-05-06 21:51:38 [INFO] Cache MISS para questão (key: de637c1a...)
+2026-05-06 21:51:38 [INFO] Cache miss - Consultando modelo
+2026-05-06 21:51:38 [INFO] ETAPA 4/4: Consultando modelo Ollama
+2026-05-06 21:51:38 [INFO] ============================================================
+2026-05-06 21:51:38 [INFO] Enviando prompt para o modelo
+2026-05-06 21:51:38 [INFO] ============================================================
+2026-05-06 21:51:38 [INFO] Aguardando resposta do modelo...
+2026-05-06 21:51:59 [INFO] Limpando recursos...
+2026-05-06 21:51:59 [INFO] ✓ Hotkeys removidas
+2026-05-06 21:51:59 [INFO] ============================================================
+2026-05-06 21:51:59 [INFO] ScreenSolver AI encerrado
+2026-05-06 21:51:59 [INFO] ============================================================
+2026-05-06 21:55:07 [INFO] ============================================================
+2026-05-06 21:55:07 [INFO] ScreenSolver AI iniciado
+2026-05-06 21:55:07 [INFO] ============================================================
+2026-05-06 21:55:08 [INFO] ============================================================
+2026-05-06 21:55:08 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 21:55:08 [INFO] ============================================================
+2026-05-06 21:55:08 [INFO] Validando dependências...
+2026-05-06 21:55:08 [WARNING] Tesseract OCR não encontrado!
+2026-05-06 21:55:08 [WARNING] O OCR não funcionará. Instale o Tesseract para usar essa funcionalidade.
+2026-05-06 21:55:08 [WARNING] Download: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:55:10 [INFO] ✓ Dependências validadas
+2026-05-06 21:55:10 [INFO] Validando configuração do Ollama...
+2026-05-06 21:55:10 [INFO] Validando configuração do Ollama...
+2026-05-06 21:55:10 [INFO] OllamaClient inicializado
+2026-05-06 21:55:10 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:55:10 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:55:10 [INFO]   Timeout: 120s
+2026-05-06 21:55:12 [INFO] ✓ Ollama está rodando e acessível
+2026-05-06 21:55:14 [INFO] ✓ Modelo qwen3.5:9b está disponível
+2026-05-06 21:55:14 [INFO] ✓ Ollama configurado corretamente!
+2026-05-06 21:55:14 [INFO] ✓ Ollama configurado corretamente
+2026-05-06 21:55:14 [INFO] OllamaClient inicializado
+2026-05-06 21:55:14 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:55:14 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:55:14 [INFO]   Timeout: 120s
+2026-05-06 21:55:14 [INFO] ✓ Cliente Ollama criado
+2026-05-06 21:55:14 [INFO] Inicializando ScreenSolver Overlay
+2026-05-06 21:55:15 [INFO] Overlay inicializada com sucesso
+2026-05-06 21:55:15 [INFO] ✓ Interface criada
+2026-05-06 21:55:15 [INFO] Hotkey registrada: F8 -> Capturar tela
+2026-05-06 21:55:15 [INFO] ✓ Hotkeys registradas
+2026-05-06 21:55:15 [INFO] ============================================================
+2026-05-06 21:55:15 [INFO] ScreenSolver AI pronto para uso!
+2026-05-06 21:55:15 [INFO] Pressione F8 para capturar tela
+2026-05-06 21:55:15 [INFO] ============================================================
+2026-05-06 21:55:15 [INFO] Iniciando loop da interface
+2026-05-06 21:55:22 [INFO] Hotkey F8 detectada - Iniciando captura
+2026-05-06 21:55:22 [INFO] ETAPA 1/4: Captura de tela
+2026-05-06 21:55:22 [INFO] ============================================================
+2026-05-06 21:55:22 [INFO] Iniciando processo de captura de tela
+2026-05-06 21:55:22 [INFO] ============================================================
+2026-05-06 21:55:23 [INFO] Aguardando seleção do usuário...
+2026-05-06 21:55:25 [INFO] Área selecionada: (1175, 198, 1817, 989)
+2026-05-06 21:55:25 [INFO] Capturando área: (1175, 198, 1817, 989)
+2026-05-06 21:55:25 [INFO] Área capturada com sucesso: (642, 791)
+2026-05-06 21:55:25 [INFO] Captura concluída com sucesso!
+2026-05-06 21:55:25 [INFO] ✓ Captura concluída
+2026-05-06 21:55:25 [INFO] Screenshot salvo: C:\Users\celic\Downloads\bot de tarefaz\screensolver\screenshots\screenshot_20260506_215525.png
+2026-05-06 21:55:25 [INFO] ETAPA 2/4: Extração de texto (OCR)
+2026-05-06 21:55:25 [INFO] ============================================================
+2026-05-06 21:55:25 [INFO] Processando imagem para extração de texto
+2026-05-06 21:55:25 [INFO] ============================================================
+2026-05-06 21:55:25 [INFO] Iniciando extração de texto (OCR)
+2026-05-06 21:55:25 [INFO] Pré-processamento concluído com sucesso
+2026-05-06 21:55:25 [WARNING] Tesseract não encontrado! Retornando mensagem padrão. Instale o Tesseract para usar OCR: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:55:25 [ERROR] Erro ao calcular confiança: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-05-06 21:55:25 [INFO] Confiança do OCR: 0.00%
+2026-05-06 21:55:25 [WARNING] Confiança do OCR muito baixa, resultado pode ser impreciso
+2026-05-06 21:55:25 [INFO] Processamento de texto concluído com sucesso
+2026-05-06 21:55:25 [INFO] ✓ Texto extraído: 117 caracteres
+2026-05-06 21:55:25 [INFO] ETAPA 3/4: Verificando cache
+2026-05-06 21:55:25 [INFO] Cache MISS para questão (key: de637c1a...)
+2026-05-06 21:55:25 [INFO] Cache miss - Consultando modelo
+2026-05-06 21:55:25 [INFO] ETAPA 4/4: Consultando modelo Ollama
+2026-05-06 21:55:25 [INFO] ============================================================
+2026-05-06 21:55:25 [INFO] Enviando prompt para o modelo
+2026-05-06 21:55:25 [INFO] ============================================================
+2026-05-06 21:55:25 [INFO] Aguardando resposta do modelo...
+2026-05-06 21:55:51 [INFO] Interface limpa
+2026-05-06 21:55:54 [WARNING] Já existe um processamento em andamento
+2026-05-06 21:56:21 [INFO] Interface limpa
+2026-05-06 21:56:24 [WARNING] Já existe um processamento em andamento
+2026-05-06 21:56:26 [INFO] Limpando recursos...
+2026-05-06 21:56:26 [INFO] ✓ Hotkeys removidas
+2026-05-06 21:56:26 [INFO] ============================================================
+2026-05-06 21:56:26 [INFO] ScreenSolver AI encerrado
+2026-05-06 21:56:26 [INFO] ============================================================
+2026-05-06 21:56:32 [INFO] ============================================================
+2026-05-06 21:56:32 [INFO] ScreenSolver AI iniciado
+2026-05-06 21:56:32 [INFO] ============================================================
+2026-05-06 21:56:33 [INFO] ============================================================
+2026-05-06 21:56:33 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 21:56:33 [INFO] ============================================================
+2026-05-06 21:56:33 [INFO] Validando dependências...
+2026-05-06 21:56:33 [WARNING] Tesseract OCR não encontrado!
+2026-05-06 21:56:33 [WARNING] O OCR não funcionará. Instale o Tesseract para usar essa funcionalidade.
+2026-05-06 21:56:33 [WARNING] Download: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:56:35 [INFO] ✓ Dependências validadas
+2026-05-06 21:56:35 [INFO] Validando configuração do Ollama...
+2026-05-06 21:56:35 [INFO] Validando configuração do Ollama...
+2026-05-06 21:56:35 [INFO] OllamaClient inicializado
+2026-05-06 21:56:35 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:56:35 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:56:35 [INFO]   Timeout: 120s
+2026-05-06 21:56:37 [INFO] ✓ Ollama está rodando e acessível
+2026-05-06 21:56:39 [INFO] ✓ Modelo qwen3.5:9b está disponível
+2026-05-06 21:56:39 [INFO] ✓ Ollama configurado corretamente!
+2026-05-06 21:56:39 [INFO] ✓ Ollama configurado corretamente
+2026-05-06 21:56:39 [INFO] OllamaClient inicializado
+2026-05-06 21:56:39 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 21:56:39 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 21:56:39 [INFO]   Timeout: 120s
+2026-05-06 21:56:39 [INFO] ✓ Cliente Ollama criado
+2026-05-06 21:56:39 [INFO] Inicializando ScreenSolver Overlay
+2026-05-06 21:56:40 [INFO] Overlay inicializada com sucesso
+2026-05-06 21:56:40 [INFO] ✓ Interface criada
+2026-05-06 21:56:40 [INFO] Hotkey registrada: F8 -> Capturar tela
+2026-05-06 21:56:40 [INFO] ✓ Hotkeys registradas
+2026-05-06 21:56:40 [INFO] ============================================================
+2026-05-06 21:56:40 [INFO] ScreenSolver AI pronto para uso!
+2026-05-06 21:56:40 [INFO] Pressione F8 para capturar tela
+2026-05-06 21:56:40 [INFO] ============================================================
+2026-05-06 21:56:40 [INFO] Iniciando loop da interface
+2026-05-06 21:56:46 [INFO] Hotkey F8 detectada - Iniciando captura
+2026-05-06 21:56:46 [INFO] ETAPA 1/4: Captura de tela
+2026-05-06 21:56:46 [INFO] ============================================================
+2026-05-06 21:56:46 [INFO] Iniciando processo de captura de tela
+2026-05-06 21:56:46 [INFO] ============================================================
+2026-05-06 21:56:46 [INFO] Aguardando seleção do usuário...
+2026-05-06 21:56:51 [INFO] Área selecionada: (1167, 207, 1803, 961)
+2026-05-06 21:56:51 [INFO] Capturando área: (1167, 207, 1803, 961)
+2026-05-06 21:56:51 [INFO] Área capturada com sucesso: (636, 754)
+2026-05-06 21:56:51 [INFO] Captura concluída com sucesso!
+2026-05-06 21:56:51 [INFO] ✓ Captura concluída
+2026-05-06 21:56:51 [INFO] Screenshot salvo: C:\Users\celic\Downloads\bot de tarefaz\screensolver\screenshots\screenshot_20260506_215651.png
+2026-05-06 21:56:51 [INFO] ETAPA 2/4: Extração de texto (OCR)
+2026-05-06 21:56:51 [INFO] ============================================================
+2026-05-06 21:56:51 [INFO] Processando imagem para extração de texto
+2026-05-06 21:56:51 [INFO] ============================================================
+2026-05-06 21:56:51 [INFO] Iniciando extração de texto (OCR)
+2026-05-06 21:56:51 [INFO] Pré-processamento concluído com sucesso
+2026-05-06 21:56:51 [WARNING] Tesseract não encontrado! Retornando mensagem padrão. Instale o Tesseract para usar OCR: https://github.com/UB-Mannheim/tesseract/wiki
+2026-05-06 21:56:51 [ERROR] Erro ao calcular confiança: tesseract is not installed or it's not in your PATH. See README file for more information.
+2026-05-06 21:56:51 [INFO] Confiança do OCR: 0.00%
+2026-05-06 21:56:51 [WARNING] Confiança do OCR muito baixa, resultado pode ser impreciso
+2026-05-06 21:56:51 [INFO] Processamento de texto concluído com sucesso
+2026-05-06 21:56:51 [INFO] ✓ Texto extraído: 117 caracteres
+2026-05-06 21:56:51 [INFO] ETAPA 3/4: Verificando cache
+2026-05-06 21:56:51 [INFO] Cache MISS para questão (key: de637c1a...)
+2026-05-06 21:56:51 [INFO] Cache miss - Consultando modelo
+2026-05-06 21:56:51 [INFO] ETAPA 4/4: Consultando modelo Ollama
+2026-05-06 21:56:51 [INFO] ============================================================
+2026-05-06 21:56:51 [INFO] Enviando prompt para o modelo
+2026-05-06 21:56:51 [INFO] ============================================================
+2026-05-06 21:56:51 [INFO] Aguardando resposta do modelo...
+2026-05-06 22:01:02 [INFO] ============================================================
+2026-05-06 22:01:02 [INFO] ScreenSolver AI iniciado
+2026-05-06 22:01:02 [INFO] ============================================================
+2026-05-06 22:01:03 [INFO] ============================================================
+2026-05-06 22:01:03 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 22:01:03 [INFO] ============================================================
+2026-05-06 22:01:03 [INFO] Validando dependências...
+2026-05-06 22:01:05 [INFO] ✓ Dependências validadas
+2026-05-06 22:01:05 [INFO] Validando configuração do Ollama...
+2026-05-06 22:01:05 [INFO] Validando configuração do Ollama...
+2026-05-06 22:01:05 [INFO] OllamaClient inicializado
+2026-05-06 22:01:05 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 22:01:05 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 22:01:05 [INFO]   Timeout: 120s
+2026-05-06 22:01:07 [INFO] ✓ Ollama está rodando e acessível
+2026-05-06 22:01:09 [INFO] ✓ Modelo qwen3.5:9b está disponível
+2026-05-06 22:01:09 [INFO] ✓ Ollama configurado corretamente!
+2026-05-06 22:01:09 [INFO] ✓ Ollama configurado corretamente
+2026-05-06 22:01:09 [INFO] OllamaClient inicializado
+2026-05-06 22:01:09 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 22:01:09 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 22:01:09 [INFO]   Timeout: 120s
+2026-05-06 22:01:09 [INFO] ✓ Cliente Ollama criado
+2026-05-06 22:01:09 [INFO] Inicializando ScreenSolver Overlay
+2026-05-06 22:01:09 [INFO] Overlay inicializada com sucesso
+2026-05-06 22:01:09 [INFO] ✓ Interface criada
+2026-05-06 22:01:10 [INFO] Hotkey registrada: F8 -> Capturar tela
+2026-05-06 22:01:10 [INFO] ✓ Hotkeys registradas
+2026-05-06 22:01:10 [INFO] ============================================================
+2026-05-06 22:01:10 [INFO] ScreenSolver AI pronto para uso!
+2026-05-06 22:01:10 [INFO] Pressione F8 para capturar tela
+2026-05-06 22:01:10 [INFO] ============================================================
+2026-05-06 22:01:10 [INFO] Iniciando loop da interface
+2026-05-06 22:01:13 [INFO] Hotkey F8 detectada - Iniciando captura
+2026-05-06 22:01:13 [INFO] ETAPA 1/4: Captura de tela
+2026-05-06 22:01:13 [INFO] ============================================================
+2026-05-06 22:01:13 [INFO] Iniciando processo de captura de tela
+2026-05-06 22:01:13 [INFO] ============================================================
+2026-05-06 22:01:13 [INFO] Aguardando seleção do usuário...
+2026-05-06 22:01:17 [INFO] Área selecionada: (1169, 199, 1792, 980)
+2026-05-06 22:01:17 [INFO] Capturando área: (1169, 199, 1792, 980)
+2026-05-06 22:01:17 [INFO] Área capturada com sucesso: (623, 781)
+2026-05-06 22:01:17 [INFO] Captura concluída com sucesso!
+2026-05-06 22:01:17 [INFO] ✓ Captura concluída
+2026-05-06 22:01:17 [INFO] Screenshot salvo: C:\Users\celic\Downloads\bot de tarefaz\screensolver\screenshots\screenshot_20260506_220117.png
+2026-05-06 22:01:17 [INFO] ETAPA 2/4: Extração de texto (OCR)
+2026-05-06 22:01:17 [INFO] ============================================================
+2026-05-06 22:01:17 [INFO] Processando imagem para extração de texto
+2026-05-06 22:01:17 [INFO] ============================================================
+2026-05-06 22:01:17 [INFO] Iniciando extração de texto (OCR)
+2026-05-06 22:01:17 [INFO] Pré-processamento concluído com sucesso
+2026-05-06 22:01:17 [INFO] Idioma OCR selecionado: eng
+2026-05-06 22:01:17 [INFO] Texto extraído com sucesso (1176 caracteres)
+2026-05-06 22:01:17 [INFO] Idioma OCR selecionado: eng
+2026-05-06 22:01:18 [ERROR] Erro ao calcular confiança: 'int' object has no attribute 'isdigit'
+2026-05-06 22:01:18 [INFO] Confiança do OCR: 0.00%
+2026-05-06 22:01:18 [WARNING] Confiança do OCR muito baixa, resultado pode ser impreciso
+2026-05-06 22:01:18 [INFO] Processamento de texto concluído com sucesso
+2026-05-06 22:01:18 [INFO] ✓ Texto extraído: 1176 caracteres
+2026-05-06 22:01:18 [INFO] ETAPA 3/4: Verificando cache
+2026-05-06 22:01:18 [INFO] Cache MISS para questão (key: 3421d88f...)
+2026-05-06 22:01:18 [INFO] Cache miss - Consultando modelo
+2026-05-06 22:01:18 [INFO] ETAPA 4/4: Consultando modelo Ollama
+2026-05-06 22:01:18 [INFO] ============================================================
+2026-05-06 22:01:18 [INFO] Enviando prompt para o modelo
+2026-05-06 22:01:18 [INFO] ============================================================
+2026-05-06 22:01:18 [INFO] Aguardando resposta do modelo...
+2026-05-06 22:03:20 [ERROR] Timeout após 120s aguardando resposta do modelo
+2026-05-06 22:03:20 [ERROR] Falha ao gerar resposta
+2026-05-06 22:06:10 [INFO] Histórico limpo
+2026-05-06 22:06:10 [INFO] Histórico limpo
+2026-05-06 22:06:16 [INFO] Interface limpa
+2026-05-06 22:06:26 [INFO] Limpando recursos...
+2026-05-06 22:06:26 [INFO] ✓ Hotkeys removidas
+2026-05-06 22:06:26 [INFO] ============================================================
+2026-05-06 22:06:26 [INFO] ScreenSolver AI encerrado
+2026-05-06 22:06:26 [INFO] ============================================================
+2026-05-06 22:08:32 [INFO] ============================================================
+2026-05-06 22:08:32 [INFO] ScreenSolver AI iniciado
+2026-05-06 22:08:32 [INFO] ============================================================
+2026-05-06 22:08:34 [INFO] ============================================================
+2026-05-06 22:08:34 [INFO] ScreenSolver AI - Inicializando
+2026-05-06 22:08:34 [INFO] ============================================================
+2026-05-06 22:08:34 [INFO] Validando dependências...
+2026-05-06 22:08:36 [INFO] ✓ Dependências validadas
+2026-05-06 22:08:36 [INFO] Validando configuração do Ollama...
+2026-05-06 22:08:36 [INFO] Validando configuração do Ollama...
+2026-05-06 22:08:36 [INFO] OllamaClient inicializado
+2026-05-06 22:08:36 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 22:08:36 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 22:08:36 [INFO]   Timeout: 120s
+2026-05-06 22:08:38 [INFO] ✓ Ollama está rodando e acessível
+2026-05-06 22:08:40 [INFO] ✓ Modelo qwen3.5:9b está disponível
+2026-05-06 22:08:40 [INFO] ✓ Ollama configurado corretamente!
+2026-05-06 22:08:40 [INFO] ✓ Ollama configurado corretamente
+2026-05-06 22:08:40 [INFO] OllamaClient inicializado
+2026-05-06 22:08:40 [INFO]   Endpoint: http://localhost:11434/api/generate
+2026-05-06 22:08:40 [INFO]   Modelo: qwen3.5:9b
+2026-05-06 22:08:40 [INFO]   Timeout: 120s
+2026-05-06 22:08:40 [INFO] ✓ Cliente Ollama criado
+2026-05-06 22:08:40 [INFO] Inicializando ScreenSolver Overlay
+2026-05-06 22:08:40 [INFO] Overlay inicializada com sucesso
+2026-05-06 22:08:40 [INFO] ✓ Interface criada
+2026-05-06 22:08:41 [INFO] Hotkey registrada: F8 -> Capturar tela
+2026-05-06 22:08:41 [INFO] ✓ Hotkeys registradas
+2026-05-06 22:08:41 [INFO] ============================================================
+2026-05-06 22:08:41 [INFO] ScreenSolver AI pronto para uso!
+2026-05-06 22:08:41 [INFO] Pressione F8 para capturar tela
+2026-05-06 22:08:41 [INFO] ============================================================
+2026-05-06 22:08:41 [INFO] Iniciando loop da interface
+2026-05-06 22:08:45 [INFO] Hotkey F8 detectada - Iniciando captura
+2026-05-06 22:08:45 [INFO] ETAPA 1/4: Captura de tela
+2026-05-06 22:08:45 [INFO] ============================================================
+2026-05-06 22:08:45 [INFO] Iniciando processo de captura de tela
+2026-05-06 22:08:45 [INFO] ============================================================
+2026-05-06 22:08:46 [INFO] Aguardando seleção do usuário...
+2026-05-06 22:08:51 [INFO] Área selecionada: (1176, 217, 1795, 972)
+2026-05-06 22:08:51 [INFO] Capturando área: (1176, 217, 1795, 972)
+2026-05-06 22:08:51 [INFO] Área capturada com sucesso: (619, 755)
+2026-05-06 22:08:51 [INFO] Captura concluída com sucesso!
+2026-05-06 22:08:51 [INFO] ✓ Captura concluída
+2026-05-06 22:08:51 [INFO] Screenshot salvo: C:\Users\celic\Downloads\bot de tarefaz\screensolver\screenshots\screenshot_20260506_220851.png
+2026-05-06 22:08:51 [INFO] ETAPA 2/4: Extração de texto (OCR)
+2026-05-06 22:08:51 [INFO] ============================================================
+2026-05-06 22:08:51 [INFO] Processando imagem para extração de texto
+2026-05-06 22:08:51 [INFO] ============================================================
+2026-05-06 22:08:51 [INFO] Iniciando extração de texto (OCR)
+2026-05-06 22:08:51 [INFO] Pré-processamento concluído com sucesso
+2026-05-06 22:08:51 [INFO] Idioma OCR selecionado: eng
+2026-05-06 22:08:52 [INFO] Texto extraído com sucesso (1176 caracteres)
+2026-05-06 22:08:52 [INFO] Idioma OCR selecionado: eng
+2026-05-06 22:08:52 [ERROR] Erro ao calcular confiança: 'int' object has no attribute 'isdigit'
+2026-05-06 22:08:52 [INFO] Confiança do OCR: 0.00%
+2026-05-06 22:08:52 [WARNING] Confiança do OCR muito baixa, resultado pode ser impreciso
+2026-05-06 22:08:52 [INFO] Processamento de texto concluído com sucesso
+2026-05-06 22:08:52 [INFO] ✓ Texto extraído: 1176 caracteres
+2026-05-06 22:08:52 [INFO] ETAPA 3/4: Verificando cache
+2026-05-06 22:08:52 [INFO] Cache MISS para questão (key: 3421d88f...)
+2026-05-06 22:08:52 [INFO] Cache miss - Consultando modelo
+2026-05-06 22:08:52 [INFO] ETAPA 4/4: Consultando modelo Ollama
+2026-05-06 22:08:52 [INFO] ============================================================
+2026-05-06 22:08:52 [INFO] Enviando prompt para o modelo
+2026-05-06 22:08:52 [INFO] ============================================================
+2026-05-06 22:08:52 [INFO] Aguardando resposta do modelo...
+2026-05-06 22:10:10 [INFO] Limpando recursos...
+2026-05-06 22:10:10 [INFO] ✓ Hotkeys removidas
+2026-05-06 22:10:10 [INFO] ============================================================
+2026-05-06 22:10:10 [INFO] ScreenSolver AI encerrado
+2026-05-06 22:10:10 [INFO] ============================================================

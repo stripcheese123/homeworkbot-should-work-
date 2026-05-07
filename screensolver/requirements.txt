@@ -1,0 +1,72 @@
+# ============================================================================
+# ScreenSolver AI - Dependências
+# ============================================================================
+# 
+# Instale todas as dependências com:
+# pip install -r requirements.txt
+#
+# Certifique-se de estar usando Python 3.11 ou superior
+# ============================================================================
+
+# Interface Gráfica
+# ----------------------------------------------------------------------------
+customtkinter>=5.2.0        # Interface moderna com dark mode
+Pillow>=10.0.0              # Manipulação de imagens
+
+# Captura de Tela
+# ----------------------------------------------------------------------------
+pyautogui>=0.9.54           # Automação e captura de tela
+pygetwindow>=0.0.9          # Gerenciamento de janelas
+
+# OCR (Reconhecimento de Texto)
+# ----------------------------------------------------------------------------
+pytesseract>=0.3.10         # Wrapper Python para Tesseract OCR
+opencv-python>=4.8.0        # Processamento de imagens
+
+# Processamento de Imagens
+# ----------------------------------------------------------------------------
+numpy>=1.24.0               # Arrays numéricos para processamento
+
+# Hotkeys
+# ----------------------------------------------------------------------------
+keyboard>=0.13.5            # Detecção de teclas globais
+
+# Requisições HTTP
+# ----------------------------------------------------------------------------
+requests>=2.31.0            # Cliente HTTP para Ollama API
+
+# ============================================================================
+# NOTAS IMPORTANTES
+# ============================================================================
+#
+# 1. TESSERACT OCR:
+#    O Tesseract precisa ser instalado separadamente no sistema.
+#    
+#    Windows:
+#      - Baixe: https://github.com/UB-Mannheim/tesseract/wiki
+#      - Instale e adicione ao PATH
+#      - Caminho padrão: C:\Program Files\Tesseract-OCR
+#    
+#    Linux:
+#      sudo apt-get install tesseract-ocr
+#      sudo apt-get install tesseract-ocr-por  # Português
+#    
+#    macOS:
+#      brew install tesseract
+#      brew install tesseract-lang  # Idiomas adicionais
+#
+# 2. OLLAMA:
+#    Instale o Ollama separadamente:
+#      - Windows/Linux/macOS: https://ollama.ai/download
+#      - Após instalar, execute: ollama pull qwen3:59b
+#
+# 3. GPU NVIDIA:
+#    Para usar GPU NVIDIA RTX 4060:
+#      - Instale CUDA Toolkit 12.x
+#      - Instale cuDNN
+#      - O Ollama detectará automaticamente
+#
+# 4. PERMISSÕES:
+#    No Windows, execute como Administrador para hotkeys globais
+#
+# ============================================================================

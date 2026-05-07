@@ -1,0 +1,81 @@
+================================================================================
+                         SCREENSOLVER AI v1.0.0
+                  Assistente IA para Resolver Questões da Tela
+================================================================================
+
+🎯 COMO EXECUTAR:
+
+   OPÇÃO 1 (Recomendado - PowerShell):
+   ------------------------------------
+   Clique com botão direito em: start.ps1
+   Selecione: "Executar com PowerShell"
+
+   OPÇÃO 2 (Batch):
+   ----------------
+   Clique duas vezes em: run.bat
+
+   OPÇÃO 3 (Manual):
+   -----------------
+   1. Abra o terminal nesta pasta
+   2. Execute: python main.py
+
+
+📋 ANTES DE EXECUTAR:
+
+   ✅ Python 3.11+ instalado
+   ✅ Tesseract OCR instalado (opcional - para OCR)
+   ✅ Ollama instalado e rodando
+   ✅ Modelo qwen3.5:9b baixado
+   ✅ Dependências instaladas: pip install -r requirements.txt
+
+
+🔍 VERIFICAR INSTALAÇÃO:
+
+   Execute: python test_setup.py
+
+   Você deve ver ✅ em todos os testes.
+
+
+📚 DOCUMENTAÇÃO:
+
+   - README.md          → Documentação completa
+   - INSTALL.md         → Guia de instalação passo a passo
+   - QUICKSTART.md      → Início rápido (5 minutos)
+   - TECHNICAL.md       → Documentação técnica
+   - PROJECT_STRUCTURE.md → Estrutura do projeto
+
+
+⌨️ COMO USAR:
+
+   1. Execute o programa (run.bat ou python main.py)
+   2. Pressione F8
+   3. Selecione a área da tela com a questão
+   4. Aguarde a resposta aparecer
+   5. Copie a resposta se necessário
+
+
+🆘 PROBLEMAS COMUNS:
+
+   "Tesseract não encontrado"
+   → Instale: https://github.com/UB-Mannheim/tesseract/wiki
+   → Adicione ao PATH: C:\Program Files\Tesseract-OCR
+
+   "Ollama não está rodando"
+   → Execute: ollama serve
+
+   "Modelo não encontrado"
+   → Execute: ollama pull qwen3.5:9b
+
+   "Dependências faltando"
+   → Execute: pip install -r requirements.txt
+
+
+📞 SUPORTE:
+
+   Consulte README.md seção "Solução de Problemas"
+   Veja logs em: logs/screensolver.log
+
+
+================================================================================
+                    Pressione F8 para começar! 🚀
+================================================================================
